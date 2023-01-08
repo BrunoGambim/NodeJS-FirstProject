@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "main": "tsc && node ./dist"
+    "main": "tsc && node ./dist",
+    "test": "tsc && jest ./dist"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/BrunoGambim/NodeJS-FirstProject/issues"
   },
-  "homepage": "https://github.com/BrunoGambim/NodeJS-FirstProject#readme"
+  "homepage": "https://github.com/BrunoGambim/NodeJS-FirstProject#readme",
+  "dependencies": {
+    "@types/jest": "^29.2.5",
+    "jest": "^29.3.1"
+  }
 }
