@@ -1,5 +1,5 @@
 import RegisterNewUser from "../../../core/use_cases/RegisterNewUser"
-import MockedPasswordEncoder from "../../../infrastructure/mocks/adapters/MockedPasswordEncoder"
+import MockedPasswordEncoder from "../../../infrastructure/mocks/utils/MockedPasswordEncoder"
 import MockedUserRepository from "../../../infrastructure/mocks/repositories/MockedUserRepository"
 
 let userRepo: MockedUserRepository|null = null
