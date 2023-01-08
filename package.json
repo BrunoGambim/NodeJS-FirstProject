@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-firstproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main": "tsc && node ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoGambim/NodeJS-FirstProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoGambim/NodeJS-FirstProject/issues"
+  },
+  "homepage": "https://github.com/BrunoGambim/NodeJS-FirstProject#readme"
+}
